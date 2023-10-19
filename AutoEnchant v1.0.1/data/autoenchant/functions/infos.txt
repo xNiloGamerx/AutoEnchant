@@ -1,0 +1,5 @@
+# Return Item to player when item is in armorstand
+execute as @e[type=minecraft:interaction,tag=autoen_interaction] at @s on target if data entity @e[type=armor_stand,tag=autoen_item_holder,sort=nearest,limit=1] HandItems[1] if entity @s[tag=autoen_using_enchanter] run scoreboard players set @s autoen_enchant_timer 0
+
+
+Bei Tutorial Richtung ändern ist die falsche, und halt den Spieler die ganze Zeit teeportieren weil da halt ein armorstand bei dem autoenchanter ist den man halt sieht

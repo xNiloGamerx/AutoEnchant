@@ -1,0 +1,1 @@
+execute if data entity @s SelectedItem as @e[tag=autoen_item_holder,sort=nearest] unless data entity @s HandItems[1].id run playsound minecraft:ui.loom.select_pattern ambient @a[distance=..5] ~ ~ ~ 0.2

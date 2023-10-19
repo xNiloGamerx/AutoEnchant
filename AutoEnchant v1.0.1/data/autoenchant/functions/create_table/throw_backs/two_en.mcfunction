@@ -1,0 +1,2 @@
+tellraw @p ["",{"text":"Enchanted Book can't have ","color":"gold"},{"text":"2","color":"red"},{"text":" Enchantments","color":"gold"},{"text":" (Feature will be added soon | Click ","color":"yellow"},{"text":"here","bold":true,"underlined":true,"color":"gold","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/autoenchant"},"hoverEvent":{"action":"show_text","contents":[{"text":"Go to the datapacks site","underlined":true,"color":"gold"}]}},{"text":" to go to the Websites site)","color":"yellow"}]
+data merge entity @s {Motion:[0.0,0.3,0.2]}

@@ -1,0 +1,1 @@
+execute as @a[tag=autoen_using_enchanter, distance=..5] at @e[type=interaction, tag=autoen_interaction] run item replace entity @s weapon.mainhand with air 1

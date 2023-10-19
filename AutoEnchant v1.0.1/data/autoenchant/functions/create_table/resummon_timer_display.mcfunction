@@ -1,0 +1,2 @@
+kill @e[tag=autoen_enchant_timer_display]
+execute as @e[tag=autoen_data] at @s positioned ~ ~0.3 ~ if entity @a[tag=autoen_using_enchanter,distance=..5] run summon text_display ~ ~ ~ {billboard:"center",alignment:"center",Tags:["autoen_enchant_timer_display"],text:'[{"text":"Enchanting: ","color":"aqua"},{"score":{"name":"@a[tag=autoen_using_enchanter,sort=nearest,limit=1]","objective":"autoen_enchant_timer"},"color":"#FFA500"},{"text":"%","color":"##ffa500"}]'}

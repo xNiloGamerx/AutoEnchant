@@ -1,0 +1,7 @@
+function autoenchant:create_table/detect_creation
+function autoenchant:interaction_function/interaction_function
+function autoenchant:timer/timer
+function autoenchant:create_table/resummon_timer_display
+function autoenchant:tutorial/trigger_tutorial
+function autoenchant:tutorial/run_scoreboard
+function autoenchant:tutorial/play_tutorial
